@@ -89,3 +89,5 @@ Y_3_with_median1 =  medfilt2(X3, [ 3 3 ] )
 Y_3_with_median2 =  medfilt2(X3, [ 5 5 ] )
 Y_3_with_median3 =  medfilt2(X3, [ 7 7 ] )
 
+disp(psnr(Y_3_with_median1,X3))
+
